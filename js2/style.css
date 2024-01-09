@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Mooli', sans-serif;
+}
+
+body{
+    font-family: 'Mooli', sans-serif;
+}
+
+
+ #header{
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),
+    rgba(0,0,0,0.7)),url(images/background.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navbar{
+    height:12%;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px 0;
+}
+.logo img{
+    width: 50px;
+    cursor:pointer;
+}
+
+.menu-icon{
+    width:50px;
+    cursor:pointer;
+    margin-left:40px;
+}
+
+nav{
+    flex:1;
+    text-align: right;
+   
+}
+
+
+ul.menu-list {
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-left: 30px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 13px;
+}
+#tattoo{
+    display:flex;
+    height:88%;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#tattoo .flex {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+.col{
+    flex-basis:50%
+}
+#tattoo h1{
+    color:#fff;
+    font-size:100px;
+}
+#tattoo p{
+    color:#fff;
+    font-size:11px;
+    line-height: 15px;
+}
+button{
+    width: 180px;
+    color: #000;
+    font-size: 16px;
+    word-spacing: 5px;
+    padding: 12px 0;
+    background: rgb(252, 73, 3);
+    border: 0;
+    font-weight: 600;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#header .card{
+    width:200px;
+    height:230px;
+    display:inline-block;
+    border-radius:10px;
+    padding:15px 25px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin:10px 15px;
+    background-position: center;
+    background-size:cover;
+    transition: transform 0.5s;
+}
+.card1{
+   background-image: url(images/pic-1.png);
+}
+.card2{
+    background-image: url(images/pic-2.png);
+}
+.card3{
+    background-image: url(images/pic-3.png);
+}
+.card4{
+    background-image: url(images/pic-4.png);
+}
+.card:hover{
+    transform:translateY(-10px);
+}
+h5{
+    color:#fff;
+    text-shadow: 0 0 5px #999;
+}
+ #header .card p{
+    text-shadow:0 0 15px #000;
+    font-size: 8px;
+ }
+ section:not(#header,.footer) {
+    margin: 80px 0;
+   
+    padding: 40px 0;
+}
+ 
+    
+
+/*Book Section*/
+section#formbooking{
+    padding: 30px 0;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+
+#formbooking .flex{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+ .container1{
+    padding:50px 0;
+    background:radial-gradient(#fff,#ffd6d6)
+ }
+ #formbooking .right{
+    background:#fff;
+    height:400px;
+    position:relative;
+    text-align:center;
+    padding:20px 0;
+    margin:auto;
+    box-shadow:0 0 20px 0px rgba(0,0,0,0.1);
+ }
+ #formbooking .right span{
+    font-weight:bold;
+    padding:0 10px;
+    color:#555;
+    cursor:pointer;
+    width:100px;
+    display:inline-block;
+ }
+
+ #formbooking .left img {
+   border-radius: 10px;
+   width: 550px
+}
+
+#formbooking form textarea {
+    width: 90%;
+    height: 60px;
+    margin: 10px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+
+
+ .form-btn{
+    display:inline-block;
+ }
+
+ .form-container form{
+    max-width:300px;
+    padding:0 20px;
+    position:absolute;
+    top:130px;
+ }
+ form input{
+    width:90%;
+    height:30px;
+    margin:10px;
+    padding: 0 10px;
+    border:1px solid #ccc;
+ }
+
+ #formbooking form {
+    width: 500px;
+}
+
+ 
+
+/* section heritage */
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.content {
+    width: 300px;
+    border-radius: 10px;
+    
+    margin-bottom: 30px;
+}
+
+.content img {
+    width: 300px;
+    height:200px;
+    border-radius: 5px;
+}
+
+.content>a {
+    text-decoration: none;
+}
+
+section#heritage {
+    padding: 30px 0;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+
+p.heritage-desc {
+    color: #000;
+    margin: 10px 0;
+}
+
+#heritage .content h1 {
+    margin: 10px 0;
+    color: #000;
+    font-weight: 600;
+}
+
+p.subt {
+    margin: 15px 0;
+    color: #000;
+}
+
+ /*section Gallery Started*/
+ 
+
+
+ h1.g-title {
+    text-align: center;
+    margin-bottom: -40px;
+    margin-top: 35px;
+}
+
+h1.g-title span {
+    color: rgb(46, 209, 57);
+}
+
+section#g-heritage {
+    padding: 30px 0;
+}
+
+section#g-heritage h1 {
+    margin: 15px 0;
+}
+
+
+
+
+
+
+/* footer Section */
+.footer{
+    background: #000;
+    color:#8a8a8a;
+    font-size: 14px;
+    padding:60px 0 20px;
+}
+
+.footer .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer p{
+    color:#8a8a8a;
+
+}
+
+.footer h3{
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.footer-col1, .footer-col2, .footer-col3, .footer-col4{
+    min-width:250px;
+    margin-bottom:20px;
+}
+.footer-col1{
+    flex-basis:30px;
+
+}
+.footer-col2{
+    flex: 1;
+    text-align:center;
+
+}
+.footer-col2 img{
+    width:180px;
+    margin-bottom:20px;
+    width: 250px;
+    margin-bottom: 20px;
+    height: 50px;
+    object-fit: none;
+}
+.footer-col3, .footer-col4{
+flex-basis:12%;
+text-align:center;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.app-logo{
+    margin:20px;
+
+}
+
+.app-logo img{
+    width:140px;
+}
+
+.footer hr{
+    border:none;
+    background:#b5b5b5;
+    height:1px;
+    margin:20px 0;
+
+}
+
+.copyright{
+    text-align:center;
+}
+
+
+.footer .menu-icon{
+    width:28px;
+    margin-left:20px;
+    display:none;
+}
+
+
+
+
+    
+    
+
+}
+
+@media (min-width:768px){
+    .hamburger{
+        display:none;
+    }
+
+    
+}
+
+/*Contact section*/
+
+.contact{
+    position:relative;
+    min-height: 100vh;
+    padding:50px 100px;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: radial-gradient(#fff,#ffd6d6);
+}
+.contact .content h2{
+    font-size:36px;
+    font-weight: 500;
+    color:#fff;
+}
+.contact .ct p {
+    color: #000;
+}
+
+.contact .ct{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact .container .contactInfo .box{
+    position:relative;
+    padding:20px 0;
+    display:flex;
+    align-items: center;
+}
+
+.contact .container .contactInfo .box .icon{
+    min-width:60px;
+    height:60px;
+    display: flex;
+    background:#fff;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 22px;
+}
+
+.contact .container .contactInfo .box .text{
+    display:flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color:#fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.contact .container .contactInfo .box .text h3{
+    font-weight: 500;
+    color:#00bcd4;
+}
+
+.contact-form{
+    width:40%;
+    padding:40px;
+    background:#fff;
+
+}
+
+.contact-form h2{
+    font-size: 30px;
+    color:#333;
+    font-weight: 500;
+}
+
+.contact-form .inputbox{
+    position:relative;
+    width:100%;
+    margin-top:10px;
+}
+
+.contact-form .inputbox input,
+.contact-form .inputbox textarea{
+    width:100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border:none;
+    border-bottom: 2px solid #333;
+    outline:none;
+    resize:none;
+}
+
+.contact-form .inputbox span{
+    position:absolute;
+    left:0;
+    padding:5px 0;
+    font-size: 16px;
+    margin:10px 0;
+    pointer-events: none;
+    transition:0.5s;
+    color:#666;
+}
+
+.contact-form .inputbox input:focus~span,
+.contact-form .inputbox input:valid~span,
+.contact-form .inputbox textarea:focus~span,
+.contact-form .inputbox textarea:valid~span
+{
+    color:#e91e63;
+    font-size:12px;
+    transform:translateY(-20px);
+
+}
+.contact-form .inputbox input[type="submit"]{
+    width:100px;
+    background: #00bcd4;
+    color:#fff;
+}
+.content-ct {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.content-ct h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
